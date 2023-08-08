@@ -1,12 +1,12 @@
 class Node:
-    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+    def __init__(self, x, next = None, random = None):
         self.val = int(x)
         self.next = next
         self.random = random
 
 
 class Solution:
-    def copyRandomList(self, head: Node) -> Node:
+    def copyRandomList(self, head):
         #Construct copies of nodes and map them to their originals
         node_cache = { None: None}
         curr = head

@@ -1,5 +1,5 @@
 class Solution:
-    def characterReplacement(self, s: str, k: int) -> int:
+    def characterReplacement(self, s, k):
         cache = {}
         l = 0
         major = 0

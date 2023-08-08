@@ -1,5 +1,5 @@
 class Solution:
-    def carFleet(self, target: int, position: [int], speed: [int]) -> int:
+    def carFleet(self, target, position, speed):
       #Models a stack
       lane = []
       #Sort by positions, cars represented by tuple = (position, speed)
