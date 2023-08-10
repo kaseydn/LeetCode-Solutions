@@ -9,6 +9,7 @@ class Solution:
                 r -= 1
             else:
                 return m
+        return -1
 
 soln = Solution()
 print(soln.search([-1,0,3,4,5,9,12], 9)) # 4
